@@ -2,8 +2,22 @@
 <html>
 	<head>
 		<title>Josh and the Seventh Seaweed</title>
+		<link rel="stylesheet" type="text/css" href="frontend.css">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 	</head>
 	<body>
-		<div>Josh</div>
+		<section id = "east">East</section>
+		<section id = "north">North</section>
+		<section id = "west">West</section>
+		<section id = "south">South</section>
+		<button>Josh</button>
+		<script>
+			$(document).ready(function(){
+				//run when document is first ready
+    			$("button").click(function(){
+        		$("section").html("Yo");
+    			});		
+			});
+		</script>
 	</body>
 </html>

@@ -1,6 +1,25 @@
+body {
+	color:red;
+}
+
+/*position east element on the right side of screen*/
 #east {
-	/*position: absolute;
-	left: 50px;
-	top: 50px;*/
 	float: right;
 }
+/*position north element at center*/
+#north{
+	width: 100%;
+	height: 400%;
+}
+/*position south element at bottom*/
+#south{
+	width: 100%;
+	height: 25%;
+	bottom:0;
+}
+
+#west{
+	
+}
+
+
